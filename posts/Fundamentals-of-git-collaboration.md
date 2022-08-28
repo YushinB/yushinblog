@@ -2,7 +2,7 @@
 title: 'Fundamentals of git collaboration'
 date: 'August 28, 2022'
 excerpt: 'Fundamentals of git collaboration'
-cover_image: '/images/posts/gitlab-logo-gray-rgb.png'
+cover_image: '/images/posts/Git-Collaboration.png'
 ---
 
 # Fundamentals of git collaboration. 
@@ -90,6 +90,7 @@ git config --global core.editor "<path to our favories editor>"
 ```
 
 Listed below is a table of popular editors and matching git config commands:
+
 | Editor      | config command |
 | ----------- | ----------- |
 |Atom	|~ git config --global core.editor "atom --wait"~|
@@ -100,7 +101,6 @@ Listed below is a table of popular editors and matching git config commands:
 |Sublime Text (Win, 32-bit install)	|~ git config --global core.editor "'c:/program files (x86)/sublime text 3/sublimetext.exe' -w"~|
 |Sublime Text (Win, 64-bit install)	|~ git config --global core.editor "'c:/program files/sublime text 3/sublimetext.exe' -w"~|
 |Textmate	~ git config |--global core.editor "mate -w"~|
-
 
 after writing the message and save then close the editor. Git automatically wrap that message to the commit message. <br>
 <img src="https://user-images.githubusercontent.com/34083808/186295489-aafe0ccf-2e2b-4c95-8d51-cd2ee8919fc3.png" alt="drawing" width="600"/>
